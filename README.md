@@ -4,7 +4,7 @@ Web-only open-source social network with photos, 24-hour Stories, Sniplets, real
 
 ## Release status
 
-This branch replaces all seeded creators/posts and browser-local social data with real Convex operations. Deployment to the existing Picto backend is required before releasing it to main. Do not call the open beta operational until backend deployment and live signup/sign-in checks succeed. A service error boundary fails closed rather than displaying fake content.
+The open beta uses the live Picto Convex deployment for accounts, uploads, feeds, and private messages. All seeded creators/posts and browser-local social data have been removed. Signup, login, upload, cross-account persistence, and private-message access checks passed against the live service. A service error boundary fails closed rather than displaying fake content.
 
 ## Development
 
